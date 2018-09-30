@@ -2,7 +2,7 @@
 
 A full-stack boilerplate leveraging Nuxt 2.x and Feathers 3.x.
 
-It's still **work-in-progress**. Use at your own risk.
+It's still **work-in-progress**. Use it at your own risk.
 
 ## Features
 
@@ -38,3 +38,6 @@ $ yarn static
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js](https://nuxtjs.org) and [Feathers](https://feathersjs.com/) docs.
+
+## Credits
+This repo is based on [create-nuxt-app](https://github.com/nuxt/create-nuxt-app) Express template and [@featherjs/cli](https://github.com/feathersjs/feathers/tree/master/packages/cli) app generator.
