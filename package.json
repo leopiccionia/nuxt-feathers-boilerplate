@@ -15,9 +15,11 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",
-    "server": "feathers",
+    "lint": "eslint . --config .eslintrc.js",
+    "server": "feathers-plus",
     "start": "cross-env NODE_ENV=production node server/index.js",
-    "static": "nuxt generate"
+    "static": "nuxt generate",
+    "test": "mocha test/ --recursive --exit"
   },
   "dependencies": {
     "@feathersjs/client": "^3.7.3",
@@ -30,12 +32,21 @@
     "consola": "^1.4.3",
     "cors": "^2.8.4",
     "cross-env": "^5.2.0",
+    "feathers-hooks-common": "^4.17.10",
     "helmet": "^3.13.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "@feathersjs/cli": "^3.8.5",
+    "@feathers-plus/cli": "^0.7.37",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-prettier": "^2.7.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "mocha": "^5.2.0",
     "nodemon": "^1.18.4",
+    "prettier": "^1.14.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }

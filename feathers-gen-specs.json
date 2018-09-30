@@ -1,0 +1,23 @@
+{
+  "options": {
+    "ver": "1.0.0",
+    "inspectConflicts": false,
+    "semicolons": true,
+    "freeze": [],
+    "ts": false
+  },
+  "app": {
+    "environmentsAllowingSeedData": "",
+    "seedData": false,
+    "name": "nuxt-feathers-boilerplate",
+    "description": "A full-stack boilerplate leveraging Nuxt 2.x and Feathers 3.x",
+    "src": "server",
+    "packager": "yarn@>= 0.18.0",
+    "providers": [
+      "rest",
+      "socketio"
+    ]
+  },
+  "services": {},
+  "hooks": {}
+}
