@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-feathers-boilerplate",
+  "version": "0.1.0",
+  "description": "A full-stack boilerplate leveraging Nuxt 2.x and Feathers 3.x",
+  "author": "",
+  "private": true,
+  "keywords": [
+    "feathers",
+    "nuxt",
+    "vue"
+  ],
+  "directories": {
+    "lib": "server"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "server": "feathers",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "static": "nuxt generate"
+  },
+  "dependencies": {
+    "@feathersjs/client": "^3.7.3",
+    "@feathersjs/configuration": "^2.0.4",
+    "@feathersjs/errors": "^3.3.4",
+    "@feathersjs/express": "^1.2.7",
+    "@feathersjs/feathers": "^3.2.3",
+    "@feathersjs/socketio": "^3.2.6",
+    "compression": "^1.7.3",
+    "consola": "^1.4.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.2.0",
+    "helmet": "^3.13.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@feathersjs/cli": "^3.8.5",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
