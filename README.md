@@ -38,4 +38,5 @@ $ yarn static
 For detailed explanation on how things work, checkout [Nuxt.js](https://nuxtjs.org) and [Feathers](https://feathersjs.com/) docs.
 
 ## Credits
+
 This repo is based on [create-nuxt-app](https://github.com/nuxt/create-nuxt-app) Express template and [@featherjs/cli](https://github.com/feathersjs/feathers/tree/master/packages/cli) app generator.
