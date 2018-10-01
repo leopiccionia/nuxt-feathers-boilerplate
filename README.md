@@ -11,8 +11,6 @@ It's still **work-in-progress**. Use it at your own risk.
 
 ### Roadmap
 
-* Linting
-* Testing
 * Integration with `feathers-vuex` (once it supports Feathers 3.x and Vuex 3.x)
 
 ## Useful commands
