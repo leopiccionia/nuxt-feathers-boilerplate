@@ -3,7 +3,9 @@
     "ver": "1.0.0",
     "inspectConflicts": false,
     "semicolons": true,
-    "freeze": [],
+    "freeze": [
+      "server/app.js"
+    ],
     "ts": false
   },
   "app": {
