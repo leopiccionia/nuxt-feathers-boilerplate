@@ -1,6 +1,7 @@
 {
   "host": "localhost",
   "port": 3000,
+  "nedb": "../server/data",
   "paginate": {
     "default": 10,
     "max": 50
