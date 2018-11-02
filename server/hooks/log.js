@@ -1,6 +1,6 @@
 // A hook that logs service method before, after and error
-const consola = require('consola');
 const util = require('util');
+const consola = require('../logger');
 
 module.exports = function() {
   return context => {
@@ -15,7 +15,7 @@ module.exports = function() {
     }
 
     if (context.error && !context.result) {
-      consola.error(context.error.stack);
+      consola.error(context.error);
     }
   };
 };
