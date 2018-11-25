@@ -33,7 +33,8 @@
     "cors": "^2.8.4",
     "cross-env": "^5.2.0",
     "helmet": "^3.13.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-feathers-vuex": "^0.0.7"
   },
   "devDependencies": {
     "@feathersjs/cli": "^3.8.5",
