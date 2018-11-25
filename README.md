@@ -11,7 +11,7 @@ It's still **work-in-progress**. Use it at your own risk.
 
 ### Roadmap
 
-* Integration with `feathers-vuex` (once it supports Feathers 3.x and Vuex 3.x)
+* Integration with `feathers-vuex` (**coming soon**)
 
 ## Useful commands
 
